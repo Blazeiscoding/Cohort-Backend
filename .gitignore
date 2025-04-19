@@ -1,0 +1,28 @@
+# Ignore node_modules directory and its contents
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files created by text editors
+*.swp
+*.swo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables file, but do not ignore the example file
+.env
+!example.env
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore Python virtual environment
+venv/
+
+# Ignore all .txt files in the "docs" directory but not the important.txt
+docs/*.txt
+!docs/important.txt
